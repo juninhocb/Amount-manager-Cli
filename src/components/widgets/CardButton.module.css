@@ -8,6 +8,7 @@
     color: #686c78;
     font-weight: bold;
     cursor: pointer;
+    width: 175px;
 }
 
 .cardButton:hover {

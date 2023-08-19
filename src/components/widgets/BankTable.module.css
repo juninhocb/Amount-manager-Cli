@@ -1,0 +1,41 @@
+.bankTableParent {
+    margin-top: 10px;
+    display: flex;
+    justify-content: left;
+}
+.bankTable {
+    text-align: left;
+    background-color: #282c34;
+    color: #686c78;
+    padding: 25px;
+    margin-left: 16px;
+    border-radius: 10px;
+    width: 46.5%;
+}
+
+.bankTable tbody td{
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.actions {
+    width: 100px;
+}
+
+.active {
+    width: 75px;
+}
+
+.name {
+    width: 150px;
+}
+
+.accountNumber {
+    width: 150px;
+}
+
+.bankTable tr:nth-child(even) {
+    background-color: #686c78;
+    color: #282c34;
+}
+

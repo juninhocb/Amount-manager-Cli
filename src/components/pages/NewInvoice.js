@@ -65,7 +65,7 @@ function NewInvoice(){
                         <SizedBox height={"10px"} />
                         <TextField type={"number"}
                                    label={"Amount"}
-                                   placeholder={"Amount spent"}
+                                   placeholder={"Amount earned"}
                         />
                         <SizedBox height={"20px"} />
                         <Button text={"Confirm"} handleClick={handleSubmit} />
@@ -102,7 +102,7 @@ function NewInvoice(){
                         <SizedBox height={"10px"} />
                         <TextField type={"number"}
                                    label={"Amount"}
-                                   placeholder={"Amount earned"}
+                                   placeholder={"Amount spent"}
                         />
                         <SizedBox height={"20px"} />
                         <Button text={"Confirm"} handleClick={handleSubmit} />
