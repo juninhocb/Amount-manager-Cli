@@ -1,0 +1,20 @@
+.textField {
+    display: flex;
+    flex-direction: column;
+}
+
+.textField label {
+    text-align: left;
+    font-weight: bold;
+    color: white;
+}
+
+.textField input {
+    padding: .7em;
+    border: none;
+
+}
+
+.fieldForm input::placeholder{
+    color: #7B7B7B;
+}

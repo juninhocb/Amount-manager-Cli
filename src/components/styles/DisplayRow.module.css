@@ -1,0 +1,10 @@
+.displayRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5em;
+    padding-right: 5em;
+    margin-top: .5em;
+    margin-left: 5em;
+    margin-right: 5em;
+}

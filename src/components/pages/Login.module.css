@@ -1,0 +1,23 @@
+.login {
+    background-color: #686c78;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.formDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #282c34;
+    height: 350px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.form{
+    display: block;
+    text-align: center;
+}

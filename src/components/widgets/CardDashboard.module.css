@@ -1,0 +1,22 @@
+.cardDashboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #282c34;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.labelTop {
+    font-size: 35px;
+    color: green;
+    font-weight: bold;
+}
+
+.labelBottom {
+    color: #686c78;
+    font-weight: bold;
+}

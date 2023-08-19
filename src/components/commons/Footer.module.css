@@ -1,0 +1,23 @@
+.footer {
+    background-color: #282c34;
+    color: white;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer ul {
+    display: flex;
+    padding-inline-start: 0;
+}
+
+.footer li {
+    margin-left: 10px;
+    list-style: none;
+}
+
+.socialItem:hover {
+    color: green;
+    cursor: pointer;
+}

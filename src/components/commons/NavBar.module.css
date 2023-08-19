@@ -1,0 +1,54 @@
+.navbar {
+
+}
+
+.navbar ul {
+    margin: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    background-color: #282c34;
+    padding-inline-start: 0;
+    padding: 20px;
+}
+
+.navbar li {
+    margin-left: 10px;
+    color: white;
+    list-style: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.navbar li:hover {
+    color: green;
+}
+
+.linkStyle {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    margin-top: 10px;
+}
+
+.linkStyle::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    bottom: -5px;
+    transition: background-color 0.3s ease;
+}
+
+.linkStyle:hover {
+    color: green;
+}
+
+.linkStyle:hover::after {
+    background-color: green;
+}

@@ -1,0 +1,33 @@
+.tableParent {
+    display: flex;
+    justify-content: center;
+}
+.table {
+    text-align: left;
+    padding: 25px;
+    width: 80%;
+    font-weight: bold;
+    color: #282c34;
+}
+
+.table thead {
+    color: #282c34;
+    font-weight: bold;
+    font-size: 25px;
+    border: #282c34 1px solid;
+
+}
+
+.table tbody {
+}
+
+.table td {
+    align-items: center;
+    padding: 8px;
+    border: 3px solid #282c34;
+}
+
+.table th {
+    padding: 8px;
+    border: 3px solid #282c34;
+}

@@ -1,0 +1,22 @@
+.App {
+  background-color: #b7bbc4;
+  padding: 20px;
+}
+
+.section {
+  height: 68vh;
+  background-color: #686c78;
+  overflow-y: scroll;
+}
+
+.section::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+.section::-webkit-scrollbar-thumb {
+  background-color: #686c78;
+}
+
+.section::-webkit-scrollbar-track {
+  background: transparent;
+}

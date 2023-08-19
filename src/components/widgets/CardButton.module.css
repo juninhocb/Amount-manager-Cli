@@ -1,0 +1,15 @@
+.cardButton {
+    display: flex;
+    align-items: center;
+    background-color: #282c34;
+    margin-left: 1em;
+    border-radius: 10px;
+    padding: 8px;
+    color: #686c78;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cardButton:hover {
+    background-color: #b7bbc4;
+}

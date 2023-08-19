@@ -1,0 +1,16 @@
+.select {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.select label{
+    margin-bottom: .6em;
+    font-weight: bold;
+}
+
+.select select{
+    padding: .7em;
+    border-radius: 0;
+    border: none;
+}
