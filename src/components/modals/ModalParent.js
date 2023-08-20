@@ -4,7 +4,6 @@ function ModalParent ({modalToDisplay, closeModal}) {
         <div className={styles.fullScreenParent}>
             {modalToDisplay}
         </div>
-
     );
 }
 export default ModalParent

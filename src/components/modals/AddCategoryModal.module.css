@@ -1,0 +1,19 @@
+.modalCategory {
+    display: flex;
+    flex-direction: column;
+    background-color: #282c34;
+    width: 250px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.modalCategory label {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn {
+    display: flex;
+}

@@ -91,13 +91,8 @@ function NewInvoice(){
                         />
                         <SizedBox height={"10px"} />
                         <SelectField
-                            text={"SubCategory"}
-                            type={"Sub Category"}
-                        />
-                        <SizedBox height={"10px"} />
-                        <SelectField
-                            text={"Type"}
-                            type={"Type"}
+                            text={"Product"}
+                            type={"Product"}
                         />
                         <SizedBox height={"10px"} />
                         <TextField type={"number"}
