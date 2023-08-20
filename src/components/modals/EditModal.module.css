@@ -1,0 +1,20 @@
+.editModal {
+    background-color: #282c34;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+    color: white;
+    padding: 25px;
+}
+
+.editModal label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btnContainer {
+    display: flex;
+}
